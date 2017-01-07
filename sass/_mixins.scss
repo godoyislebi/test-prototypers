@@ -1,0 +1,31 @@
+@mixin fondo($background-image, $background-attachment, $background-position, $background-repeat, $width, $height){
+	background-image: $background-image;
+	background-attachment: $background-attachment;
+	background-position: $background-position;
+	background-repeat: $background-repeat;
+	width: $width;
+	height: $height;
+}
+
+@mixin fondocolor($background-color, $height){
+	background-color: $background-color;
+	height: $height;
+}
+
+@mixin titulo-blanco($color, $font-size, $margin-top){
+	color: $color;
+	font-size: $font-size;
+	margin-top: $margin-top;
+}
+
+@mixin textos($text-align, $line-height, $font-size, $color){
+	text-align: $text-align;
+	line-height: $line-height;
+	font-size: $font-size;
+	color: $color;
+}
+
+@mixin estilo-titulo($color,$font-weight){
+	color: $color;
+	font-weight: $font-weight;
+}

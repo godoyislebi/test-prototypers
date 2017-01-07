@@ -1,0 +1,99 @@
+body{
+	font-family: $fuentegeneral;
+}
+
+
+//header
+header{
+	background-size: cover;
+	@include fondo($background-header,fixed, center, no-repeat, 100%, 100vh)
+}
+	
+
+// sección nuestra pasión
+
+#nuestrapasion{
+	background-size: cover;
+	@include fondo($background-nuestrapasion,fixed, center, no-repeat, 100%, 100vh);
+	h1{
+		@include titulo-blanco($fuente-white,60px, 30vh);
+	}
+	p{
+		@include textos(justify, 1.5em, 18px, rgb(255,255,255));
+	}
+}	
+
+
+// sección tipos de té
+
+#tiposdete{
+	h1{
+		@include estilo-titulo(rgb(237,157,178),bold);
+	}
+	p{
+		@include textos(center, 1.5em, 15px, rgb(0,0,0));
+	}
+	padding: 10vh 0;
+}
+
+
+//Preguntas sobre el té
+
+#preguntas{
+	background-size: cover;
+	@include fondo($background-preguntas,fixed, center, no-repeat, 100%, 100vh);
+	h1{
+		@include titulo-blanco($fuente-white, 60px, 30vh);
+	}
+}
+
+// Sección Los campos
+
+#campos{
+	background-size: cover;
+	@include fondo($background-campos,fixed, center, no-repeat, 100%, 100vh);
+	h1{
+		@include titulo-blanco($fuente-white, 60px, 30vh);
+	}
+}
+
+
+// Slider
+
+#slides{
+	nav{
+		a{
+			i{
+			 font-size:60px;
+			 color:white;
+			}
+		}
+	}
+}
+
+// Sección Preguntas y Respuestas
+ 
+#preguntas-respuestas{
+ 	.crema{
+		@include fondocolor(rgb(240,231,174), 70vh);
+		}
+
+	.verde{
+		@include fondocolor(rgb(142, 198, 65), 70vh);
+	}
+
+	.rosa{
+		@include fondocolor(rgb(237,154,157), 70vh);
+
+	}
+	p{
+			@include textos(center, 1.5em, 15px, rgb(0,0,0));
+		}
+}
+
+
+// Footer
+
+footer{
+	background-color:rgb(0,0,0);
+}
