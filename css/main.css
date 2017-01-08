@@ -5894,5 +5894,7 @@ header {
 
 footer {
   background-color: black; }
+  footer p {
+    padding-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */
